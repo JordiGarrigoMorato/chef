@@ -1,0 +1,114 @@
+nav {
+    background-color: #0d8397dc;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+nav a {
+    color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+}
+
+#autor {
+    color: #0d8397dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+header {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: calibri, sans-serif;
+
+}
+
+
+hr {
+    border: 2px solid #011013dc;
+    margin: 20px 0;
+}
+
+#Receta {
+    color: rgb(255, 255, 255);
+    background-color: #0d8397dc;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #0d8397dc;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #333333;
+    font-family: calibri, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+ul li {
+    background: #f8f9fa;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #0d8397dc;
+    font-weight: 500;
+}
+
+button {
+    display: inline-block;
+    background-color: #0d8397dc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none
+
+}
+
+.boton {
+    display: inline-block;
+   color: #fff;
+  text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #777777;
+    margin-top: auto;
+}
+th {
+    background-color: #0d8397dc;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+    border-radius: 6px;
+    border-bottom: 3px solid#0d8397dc;
+}
+
+
+#Perfil {
+   color: #000607dc;
+}
