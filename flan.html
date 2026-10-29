@@ -9,16 +9,20 @@
 </head>
 
 <body>
-    <header>
-        <a href="recetacuina.html">&larr; Volver a mis recetas</a>
+    <header id="inici">
+         <nav>
+            <a href="#inici">Inicio</a>
+            <a href="#ingredients">Ingredientes</a>
+            <a href="#pasos">Preparación </a>
+            <a href="#consejos">Consejo</a>
+        </nav>
         <h1>Flan casero</h1>
     </header>
-
     <main>
-        <img src="Imagenes/flan.jpg" alt="Flan casero con caramelo" width="600" height="400">
-
+        <img class="imagen" src="Imagenes/flan.jpg" alt="Flan casero con caramelo" width="600" height="400">
+        <br>
         <table class="datos">
-            <caption>Datos de la receta</caption>
+            <caption id="ingredients">Datos de la receta</caption>
             <tr>
                 <th>Raciones</th>
                 <td>6 personas</td>
@@ -36,8 +40,6 @@
                 <td>4 horas en la nevera</td>
             </tr>
         </table>
-
-        <section aria-labelledby="ingredientes-titulo">
             <h2 id="ingredientes-titulo">Ingredientes</h2>
             <h3>Para el flan</h3>
             <ul>
@@ -51,10 +53,7 @@
                 <li>100 g de azúcar</li>
                 <li>2 cucharadas de agua</li>
             </ul>
-        </section>
-
-        <section aria-labelledby="pasos-titulo">
-            <h2 id="pasos-titulo">Preparación</h2>
+            <h2 id="pasos">Preparación</h2>
             <ol>
                 <li>Precalienta el horno a 160 °C.</li>
                 <li>Haz el caramelo: pon el azúcar y el agua en un cazo a fuego medio, sin remover, hasta que tome color dorado. Viértelo enseguida en el fondo del molde.</li>
@@ -64,15 +63,12 @@
                 <li>Colócalo dentro de una bandeja con agua caliente (baño maría) y hornea unos 50 minutos. Está listo cuando al pinchar con un palillo este sale limpio.</li>
                 <li>Deja enfriar, guárdalo en la nevera al menos 4 horas y desmóldalo justo antes de servir.</li>
             </ol>
-        </section>
-
-        <section aria-labelledby="consejos-titulo">
-            <h2 id="consejos-titulo">Consejos</h2>
+            <h2 id="consejos">Consejos</h2>
             <p>
                 Colar la mezcla antes de hornear es el truco para que el flan quede
                 suave y sin burbujas. Para desmoldarlo, pasa un cuchillo fino por los bordes.
             </p>
-        </section>
+            <button><a href="misrecetas.html" class="boton">Aprender más</a></button>
     </main>
 
     <footer>

@@ -1,70 +1,86 @@
+nav {
+    background-color: #0d8397dc;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+nav a {
+    color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background: #faf6f0;
-    color: #333;
-    line-height: 1.6;
+    background-color: #ffffff;
+    font-family: calibri, sans-serif;
 }
 
 header {
+    background-color: #ffffff;
+    padding: 30px 20px;
     text-align: center;
-    margin-bottom: 24px;
 }
 
-header a {
-    color: #b5532a;
-    text-decoration: none;
+.imagen {
+border-radius: 50%;
+display: block;
+margin: 0 auto;
+object-fit: cover;
 }
-
-main {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-main > img {
+.datos{
     width: 100%;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-}
 
-h2 {
-    color: #b5532a;
-    border-bottom: 2px solid #e8d9c5;
-    padding-bottom: 4px;
 }
+caption {
+    background-color: #0d8397dc;
+    color : white
+    padding
 
-.datos {
-    width: 100%;
-    margin: 20px 0;
-    border-collapse: collapse;
-    background: #fff;
+
 }
-
-.datos caption {
-    font-weight: bold;
-    padding: 8px;
-}
-
-.datos th,
-.datos td {
-    padding: 8px 12px;
-    border: 1px solid #e8d9c5;
+th {
+    background-color: #0d8397dc;
+    color: white;
+    padding: 10px;
     text-align: left;
+    padding: 0.5rem 0.75rem;
+
+}
+td {
+    padding: 10px;
+    border-radius: 6px;
+    border-bottom: 3px solid#0d8397dc;
 }
 
-.datos th {
-    background: #f3e9db;
-    width: 40%;
+h1,h2,h3,h4,h5 {
+    color: #0d8397dc;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+}
+ul li {
+    background: #f8f9fa;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #0d8397dc;
+    font-weight: 500;
 }
 
-li {
-    margin-bottom: 6px;
+ol li {
+    background: #ddf3fb;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-bottom: 4px solid #0d8397dc;
+    font-weight: 500;
 }
+
 
 footer {
     text-align: center;
-    margin-top: 32px;
-    font-size: 0.9em;
+    padding: 1rem;
+    font-size: 0.9rem;
 }
+
