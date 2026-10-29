@@ -1,9 +1,10 @@
 nav {
-    background-color: #0d8397dc;
     padding: 10px 20px;
     text-align: center;
     border-radius: 10px;
-    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
 
 nav a {
@@ -11,33 +12,74 @@ nav a {
             text-decoration: none;
             margin: 0 15px;
             font-weight: 600;
+            font-size: 20px;      
+}
+
+hr{
+    color: white;
+    height: 2px;
+    border: none;
+    background-color: rgb(253, 253, 253);
+
+}
+#inici{
+     background-color: #2f93a7;
+     color: white;
+     text-align: center;
+     padding: 15px 0;
+     border-radius: 0 0 12px 12px;
 }
 body {
     background-color: #ffffff;
     font-family: calibri, sans-serif;
+    margin: 0;
+    
 }
 
 header {
     background-color: #ffffff;
     padding: 30px 20px;
     text-align: center;
+    
 }
 
+.titulo{
+
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+
+
+}
 .imagen {
 border-radius: 50%;
 display: block;
 margin: 0 auto;
 object-fit: cover;
+margin-top: 50px;
 }
+
+.fondo1, #consejos,footer {
+background-image: url("Imagenes/fondo.jpg");  
+background-position: center;
+margin-bottom: 20px;  
+ background-size: cover;
+}
+
+
 .datos{
     width: 100%;
 
 }
 caption {
     background-color: #0d8397dc;
-    color : white
-    padding
-
+    color : white;
+    padding: 5px;
+    margin: 0px 30px;
+    border-radius: 5px;
 
 }
 th {
@@ -69,7 +111,7 @@ ul li {
 }
 
 ol li {
-    background: #ddf3fb;
+    background: #f8f9fa;
     margin-bottom: 8px;
     padding: 10px 15px;
     border-radius: 6px;
@@ -77,10 +119,20 @@ ol li {
     font-weight: 500;
 }
 
+#ingredients{
+    padding: 20px 50px; 
+}
+
+#pasos{
+    padding: 20px 50px;
+}
+
+#consejos{
+    padding: 20px 50px; 
+}
 
 footer {
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+    padding: 20px;
 }
 
