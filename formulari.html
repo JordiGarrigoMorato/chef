@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>QUESTIONARIO</title>
-    </head>
-    <body>
 
-        <h1>FORMULARIO</h1>
-        <form method = "post" action="#">
-            <label for ="">Nombre: </label>
-            <input name="nom" type=" text"/>
-        <h2>ELIGE UNA OPCIÓN </h2>
-        <input  name="numero" type="radio" value="Un">UNO<label for="UNO"></label><br>
-        <input  name="numero" type="radio" value="DoS">DOS<label for="DOS"></label> <br>
-        <input  name="numero" type="radio" value="treS">TRES<label for="TRES"></label><br>
-        
-        <label for="nombre">Nombre:</label>
-        <input type="text” name="nombre">
-        <br></br >
+<head>
+    <meta charset="UTF-8">
+    <meta name="Jordi Garrigó" content="Receta de cocina, initial-scale=1.0">
+    <title>FORMULARIO| Jordi Garrigó</title>
+    <link rel="stylesheet" href="formulari.css">
+</head>
+
+<body>
+
+    <ol>
+        <h1>Inicio</h1>
+        <li>
+            <form method="post" action="#">
+                <label for="">Nombre: </label>
+                <input name="nom" type=" text" />
+                <br><br>
+        </li>
+        <li>
+            <form method="post" action="#">
+                <label for="">Apellidos: </label>
+                <input name="apellidos" type=" text" />
+                <br>
+        </li>
+        <h2>ELIGE LA SIGUIENTE RECETA </h2>
+        <li>
+            <input name="numero" type="radio" value="Un">Tacos al Pastor<label for="UNO"></label><br>
+            <input name="numero" type="radio" value="DoS">Lasaña a la Boloñesa<label for="DOS"></label> <br>
+            <input name="numero" type="radio" value="treS">Cebiche Peruano<label for="TRES"></label><br>
+            <br>
+        </li>
         <input type="submit" value="ENVIAR">
         <h3>RECOMENDACIONES DEL USUARIO</h3>
-        <textarea name="message”  cols="10" rows="10">
+        <li>
+            <textarea name="message”  cols=" 10" rows="10">
                         </textarea>
+        </li>
 
 
-
-        </form>
-    </body>
+    </ol>
+    </form>
+</body>
 
 
 
