@@ -5,18 +5,28 @@
     <meta charset="UTF-8">
     <meta name="Jordi Garrigó" content="Receta de cocina, initial-scale=1.0">
     <title>Pasta a la boloñesa</title>
-     <link rel="stylesheet" href="receta.css">
+    <link rel="stylesheet" href="receta.css">
 </head>
 
-<body>S
-    <header>
-        <a href="recetacuina.html">&larr; Volver a mis recetas</a>
-        <h1>Pasta a la boloñesa</h1>
+<body>
+    <header id="inici">
+        <nav>
+            <a href="#inici">Inicio</a>
+            <a href="#ingredients">Ingredientes</a>
+            <a href="#pasos">Preparación </a>
+            <a href="#consejos">Consejo</a>
+        </nav>
+        <br>
+        <hr>
+        <h1 class="titulo">Pasta a la boloñesa</h1>
     </header>
 
     <main>
-        <img src="Imagenes/bolonesa.jpg" alt="Plato de espaguetis a la boloñesa" width="600" height="400">
-
+        <div class="fondo1">
+            <img class=imagen src="Imagenes/boloñesa.avif" alt="Plato de espaguetis a la boloñesa" width="600"
+                height="400">
+            <br>
+        </div>
         <table class="datos">
             <caption>Datos de la receta</caption>
             <tr>
@@ -36,44 +46,40 @@
                 <td>Fácil</td>
             </tr>
         </table>
+        <h2 id="ingredients">Ingredientes</h2>
+        <ul>
+            <li>400 g de espaguetis</li>
+            <li>300 g de carne picada mixta (ternera y cerdo)</li>
+            <li>1 cebolla</li>
+            <li>1 zanahoria</li>
+            <li>1 diente de ajo</li>
+            <li>400 g de tomate triturado</li>
+            <li>100 ml de vino tinto</li>
+            <li>1 cucharadita de orégano</li>
+            <li>Aceite de oliva, sal y pimienta</li>
+        </ul>
 
-        <section aria-labelledby="ingredientes-titulo">
-            <h2 id="ingredientes-titulo">Ingredientes</h2>
-            <ul>
-                <li>400 g de espaguetis</li>
-                <li>300 g de carne picada mixta (ternera y cerdo)</li>
-                <li>1 cebolla</li>
-                <li>1 zanahoria</li>
-                <li>1 diente de ajo</li>
-                <li>400 g de tomate triturado</li>
-                <li>100 ml de vino tinto</li>
-                <li>1 cucharadita de orégano</li>
-                <li>Aceite de oliva, sal y pimienta</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="pasos-titulo">
-            <h2 id="pasos-titulo">Preparación</h2>
-            <ol>
-                <li>Pica muy fino la cebolla, la zanahoria y el ajo.</li>
-                <li>Sofríelos en una cazuela con aceite a fuego medio durante 8 minutos, hasta que estén blandos.</li>
-                <li>Sube el fuego, añade la carne picada y desmenúzala mientras se dora.</li>
-                <li>Vierte el vino tinto y deja que se evapore el alcohol durante 2 minutos.</li>
-                <li>Añade el tomate triturado, el orégano, sal y pimienta.</li>
-                <li>Cocina a fuego bajo unos 45 minutos, removiendo de vez en cuando.</li>
-                <li>Cuece los espaguetis en agua con sal según el tiempo del paquete, escúrrelos y sírvelos con la salsa por encima.</li>
-            </ol>
-        </section>
-
-        <section aria-labelledby="consejos-titulo">
-            <h2 id="consejos-titulo">Consejos</h2>
-            <p>
-                Cuanto más tiempo cueza la salsa a fuego suave, más sabor tendrá.
-                Si queda ácida, añade una pizca de azúcar.
-            </p>
-        </section>
+        <h2 id="pasos">Preparación</h2>
+        <ol>
+            <li>Pica muy fino la cebolla, la zanahoria y el ajo.</li>
+            <li>Sofríelos en una cazuela con aceite a fuego medio durante 8 minutos, hasta que estén blandos.</li>
+            <li>Sube el fuego, añade la carne picada y desmenúzala mientras se dora.</li>
+            <li>Vierte el vino tinto y deja que se evapore el alcohol durante 2 minutos.</li>
+            <li>Añade el tomate triturado, el orégano, sal y pimienta.</li>
+            <li>Cocina a fuego bajo unos 45 minutos, removiendo de vez en cuando.</li>
+            <li>Cuece los espaguetis en agua con sal según el tiempo del paquete, escúrrelos y sírvelos con la salsa por
+                encima.</li>
+        </ol>
     </main>
 
+    <section id="consejos">
+        <h2>Consejos</h2>
+        <p>
+            Cuanto más tiempo cueza la salsa a fuego suave, más sabor tendrá.
+            Si queda ácida, añade una pizca de azúcar.
+        </p>
+        <button><a href="misrecetas.html" class="boton">Aprender más</a></button>
+    </section>
     <footer>
         <p>&copy; 2026 Todos los derechos reservados a Jordi Garrigó.</p>
     </footer>

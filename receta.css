@@ -131,6 +131,24 @@ ol li {
     padding: 20px 50px; 
 }
 
+button {
+    display: inline-block;
+    background-color: #0d8397dc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none
+
+}
+
+.boton {
+    display: inline-block;
+   color: #fff;
+  text-decoration: none;
+}
+
 footer {
     text-align: center;
     padding: 20px;
