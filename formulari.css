@@ -1,5 +1,8 @@
+
 h1,h2,h3 {
     padding: 20px 50px; 
+    width: 100%;
+    size: 20px;
 }
 
 html{
@@ -9,4 +12,15 @@ html{
      background-repeat: no-repeat;
      margin: 0;
     height: 100vh;
+}
+
+label,textarea {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input, textarea, select {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ddf1ff;
 }
